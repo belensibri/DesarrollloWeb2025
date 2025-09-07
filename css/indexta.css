@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(231, 140, 198);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    color: rgb(107, 2, 76);
+}
+
+body{
+    background-color: rgb(221, 207, 217);
+    text-align: center;
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+}
