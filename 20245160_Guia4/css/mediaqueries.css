@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=bakbak+one&display=swap');
+
+*{
+    font-family: 'Bakbak One', cursive;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+span{
+    display: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: red;
+    font-weight: bold;
+}
+
+/*dispositivos moviles*/
+@media screen and (max-width: 480px){
+    html{
+        font-size: 14px;
+    }
+
+    body{
+        background-color: #03A9F4;
+    }
+
+    div{
+        width: 95%;
+    }
+
+    .smartphone{
+        display: inline-block;
+    }
+}
+
+/*estilos para tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    html{
+        font-size: 15px;
+    }
+
+    body{
+        background-color: #FF9800;
+    }
+
+    div{
+        width: 85%;
+    }
+
+    .tablet{
+        display: inline-block;
+    }
+}
+
+/*Estilos para PCs*/
+@media screen and (min-width: 769px){
+    html{
+        font-size: 16px;
+    }
+
+    body{
+        background-color: #BBBBBB;
+    }
+
+    div{
+        width: 75%;
+    }
+
+    .escritorio{
+        display: inline-block;
+    }
+}
