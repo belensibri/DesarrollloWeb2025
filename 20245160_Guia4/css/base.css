@@ -1,5 +1,5 @@
 
-/* FUENTES */
+
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
 
 *{
@@ -19,13 +19,12 @@ text-align: center;
 color: #464d52;
 }
 
-/* PARTE SUPERIOR */
 #superior{
 width: 100%;
 padding: 2% 0px;
 background-color: #464d52;
 }
-/* PIE DE LA PAGINA*/
+
 footer{
 text-align: center;
 margin: 0;
@@ -36,7 +35,7 @@ background-color: #464d52;
 color: white;
 width: 100%;
 }
-/*BOTON DE LA PAGINA INDEX */
+
 .boton{
 background-color:#464d52;
 padding: 7px;

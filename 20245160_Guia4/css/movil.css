@@ -64,7 +64,7 @@ padding-left: 40px;
 }
   
 #imgDesc {
-  overflow: hidden;/*obliga a cubrir a los elementos flotantes*/
+  overflow: hidden;
 }
 
 #imgDesc img {
@@ -85,7 +85,7 @@ padding-left: 40px;
   font-size: 0.8em;
 }
 
-/*Contenido principal de las paginas */
+
 #contenido{
 width: 90%;
 margin: 0px auto;
@@ -93,7 +93,7 @@ overflow: auto  ;
 }
 
 
-/* CONTENIDO DE LA PAGINA INDEX */
+
 .plan {
     width: 92%;
     padding: 10px 2%;
@@ -122,7 +122,7 @@ overflow: auto  ;
     font-size: 1em;
 }
 
-/* CONTENIDO DE LA PAGINA PLANES */
+
 .planes{
 width: 94%;
 background: white;
@@ -149,7 +149,7 @@ font-weight: bold;
 
 
 
-/* CONTENIDO DE LA PAGINA GALERIA*/
+
 #galeria .plan {
     font-size: 0.8em;
     padding-bottom: 10px;

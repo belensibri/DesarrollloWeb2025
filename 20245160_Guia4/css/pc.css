@@ -1,6 +1,6 @@
-/* MENU */
+
 nav{
-width: 100%; /* 960/960*=100%*/
+width: 100%; 
 font-size: 1.4em;
 }
 
@@ -45,40 +45,38 @@ background: url(../img/turismo/galeria.png) no-repeat 0px 3px;
 padding-left: 40px;
 }
 
-/* PARTE SUPERIOR */
+
 #encabezado{
 margin: 0px auto;
 width: 80%;
-min-width: 650px;/* YA NO REACCIONARA SI LA PANTALLA ES MAS PEQUEÑA
-QUE 650px*/
-max-width: 960px;/*YA NO REACCIONARA SI LA PANTALLA ES MAS GRANDE
-QUE 960 px*/
+min-width: 650px;
+max-width: 960px;
 }
 
 #superior #encabezado #logo{
-margin: 2% 0px; /*23/960=2%*/
-width: 21%; /*200/960= 21%*/
+margin: 2% 0px; 
+width: 21%; 
 height: auto;
 }
 
 #imgDesc img{
-width: 62.5%; /* 600/960= 62.5% */
+width: 62.5%; 
 height: auto;
 float: left;
 }
 
 #imgDesc{
-overflow: hidden;/*obliga a cubrir a los elementos flotantes*/
+overflow: hidden;
 }
 
 #descripcion{
-width: 37.5%; /* 360/960=0.375*/
+width: 37.5%; 
 background-color: #888;
 float: left;
 }
 
 #descripcion p{
-margin: 5%; /* 20/360 =5% */
+margin: 5%;
 color: white;
 font-weight: bold;
 line-height: 170%;
@@ -86,23 +84,19 @@ text-align:justify;
 font-size: 0.95em;
 }
 
-/*Contenido principal de las paginas */
 #contenido{
 width: 80%;
 margin: 0px auto;
 clear: left;
 overflow: auto;
-min-width: 650px;/* YA NO REACCIONARA SI LA CAJA ES MAS PEQUEÑA DE
-650px*/
-max-width: 960px;/*YA NO REACCIONARA SI LA CAJA ES MAS GRANDE QUE
-960 px*/
+min-width: 650px;
+max-width: 960px;
 }
 
 
-/* CONTENIDO DE LA PAGINA INDEX */
 .plan{
-width: 26.7%; /* 258/960= 27%*/
-padding: 2%; /* 20/960=2%*/
+width: 26.7%; 
+padding: 2%; 
 margin: 30px 1.5%;
 background-color:white;
 border: solid 1px black;
@@ -115,17 +109,14 @@ text-align: justify;
 width: 100%;
 }
 
-/* Primer div, cuarto div,... */
 #contenido div:nth-child(3n+1){
 margin-left: 0px;
 }
 
-/* Tercer div, sexto div, .... */
 #contenido div:nth-child(3n){
 margin-right: 0px;
 }
 
-/* CONTENIDO DE LA PAGINA PLANES */
 .planes{
 width: 94%;
 background: white;
@@ -152,7 +143,7 @@ font-weight: bold;
 
 
 
-/* CONTENIDO DE LA PAGINA GALERIA*/
+
 #galeria .plan{
 font-size: 1em;
 padding-bottom: 10px;

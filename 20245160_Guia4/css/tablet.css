@@ -1,6 +1,6 @@
-/* MENU */
+
 nav{
-width: 100%; /* 960/960*=100%*/
+width: 100%; 
 font-size: 1.4em;
 }
 
@@ -45,21 +45,21 @@ background: url(../img/turismo/galeria.png) no-repeat 0px 3px;
 padding-left: 40px;
 }
 
-/* PARTE SUPERIOR */
+
 #encabezado{
 margin: 0px auto;
 width: 90%;
 }
 
 #superior #encabezado #logo{
-margin: 2% 0px; /*23/960=2%*/
-width: 21%; /*200/960= 21%*/
+margin: 2% 0px; 
+width: 21%; 
 height: auto;
 }
 
 
 #imgDesc{
-overflow: hidden;/*obliga a cubrir a los elementos flotantes*/
+overflow: hidden;
 }
 
 #imgDesc img {
@@ -80,7 +80,6 @@ overflow: hidden;/*obliga a cubrir a los elementos flotantes*/
   font-size: 1em;
 }
 
-/*Contenido principal de las paginas */
 #contenido{
 width: 90%;
 margin: 0px auto;
@@ -88,7 +87,6 @@ overflow: auto  ;
 }
 
 
-/* CONTENIDO DE LA PAGINA INDEX */
 .plan {
   width: 94%;
   padding: 1.5%;
@@ -112,7 +110,7 @@ overflow: auto  ;
   float: right;
 }
 
-/* CONTENIDO DE LA PAGINA PLANES */
+
 .planes{
 width: 94%;
 background: white;
@@ -139,7 +137,7 @@ font-weight: bold;
 
 
 
-/* CONTENIDO DE LA PAGINA GALERIA*/
+
 #galeria .plan{
   font-size: 0.8em;
   padding-bottom: 10px;
