@@ -69,19 +69,19 @@ const startDOM = () => {
     const buttonFondo = document.getElementById("idFondo");
     buttonFondo.value = "#ffffff";
     buttonFondo.addEventListener("input", primerColorFondo, false);
-    buttonFondo.addEventListener("change", cambiarColorFondo, false);
+    buttonFondo.addEventListener("change", (event) => cambiarColorFondo(event.target.value), false);
     buttonFondo.select();
 
     const buttonTitulos = document.getElementById("idTitulos");
     buttonTitulos.value = "#000000";
     buttonTitulos.addEventListener("input", primerColorTitulos, false);
-    buttonTitulos.addEventListener("change", cambiarColorTitulos, false);
+    buttonTitulos.addEventListener("change", (event) => cambiarColorTitulos(event.target.value), false);
     buttonTitulos.select();
 
     const buttonParrafos = document.getElementById("idParrafos");
     buttonParrafos.value = "#000000";
     buttonParrafos.addEventListener("input", primerColorParrafos, false);
-    buttonParrafos.addEventListener("change", cambiarColorParrafos, false);
+    buttonParrafos.addEventListener("change", (event) => cambiarColorParrafos(event.target.value), false);
     buttonParrafos.select();
 
     const buttonAumentar = document.getElementById("idBtnAumentar");
@@ -90,3 +90,5 @@ const startDOM = () => {
     buttonAumentar.addEventListener("click", aumentarLetra, false);
     buttonDisminuir.addEventListener("click", disminuirLetra, false);
 };
+
+startDOM();
